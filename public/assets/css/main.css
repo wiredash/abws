@@ -2847,6 +2847,8 @@
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
+			text-align: justify;
+			line-height:1.2em
 		}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
@@ -2856,7 +2858,9 @@
 			.features li > :last-child {
 				margin-bottom: 0;
 			}
-
+			.features li > h3 {
+				font-weight: bold
+			}
 		@media screen and (max-width: 980px) {
 
 			.features li {
